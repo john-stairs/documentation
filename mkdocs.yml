@@ -1,0 +1,46 @@
+site_name: John Stairs' documentation
+site_url: https://sitename.example
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - search.suggest
+    - search.highlight
+    - navigation.footer
+    - navigation.sections
+    - navigation.instant
+nav:
+  - Start:
+      index.md
+  - RPG Camera:
+      - rpg-camera/introduction.md
+plugins:
+  - search
+markdown_extensions:
+  - toc:
+      permalink: true
+extra:
+  plugins:
+  - privacy:
+      enabled: !ENV [CI, false]
+  social:
+    - icon: fontawesome/brands/unity 
+      link: https://assetstore.unity.com/publishers/1799
+      name: John Stairs on Unity's Asset Store
+    - icon: fontawesome/brands/youtube 
+      link: https://www.youtube.com/@johnstairs7246
+      name: John Stairs on YouTube
+copyright: Copyright &copy; 2025 John Stairs | <a href="imprint.html">Imprint</a>
