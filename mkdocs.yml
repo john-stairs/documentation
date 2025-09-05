@@ -1,5 +1,5 @@
-site_name: John Stairs' documentation
-site_url: https://sitename.example
+site_name: John Stairs's documentation
+site_url: https://john-stairs.github.io/documentation/
 theme:
   name: material
   palette:
@@ -23,15 +23,28 @@ theme:
     - navigation.sections
     - navigation.instant
 nav:
-  - Start:
-      index.md
+  - index.md
+  - overview.md
   - RPG Camera:
       - rpg-camera/introduction.md
+      - Getting Started:
+        - rpg-camera/getting-started/project-setup.md
+        - rpg-camera/getting-started/scene-setup.md
+        - rpg-camera/getting-started/video.md
+      - rpg-camera/useful-interfaces.md
+      - rpg-camera/other-render-pipelines.md
+      - rpg-camera/version-history.md
+  - RTS Camera:
+      - rts-camera/introduction.md
+  - imprint.md
 plugins:
   - search
 markdown_extensions:
   - toc:
       permalink: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 extra:
   plugins:
   - privacy:

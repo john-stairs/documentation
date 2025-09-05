@@ -1,17 +1,16 @@
 # Introduction
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Intro text mit link zur asset store page
 
-## Commands
+!!! info
+    Note that this asset was developed with Unity’s Universal Render Pipeline (URP). Therefore, all provided material is based on URP. However, other render pipelines are also supported by this asset. Refer to section ["Other render pipelines or custom shaders"](other-render-pipelines.md) below for more information. 
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Features
 
-## Project layout
+## Demo
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Controls
+
+## Variables
+
+<div style="text-align:center"><a href="img/variables.jpg"><img src="img/variables.jpg"/></a></div>
