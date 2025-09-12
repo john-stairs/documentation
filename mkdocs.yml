@@ -27,16 +27,20 @@ nav:
   - overview.md
   - RPG Camera:
       - rpg-camera/introduction.md
+      - rpg-camera/demo.md
       - Getting Started:
         - rpg-camera/getting-started/project-setup.md
         - rpg-camera/getting-started/scene-setup.md
         - rpg-camera/getting-started/video.md
       - rpg-camera/useful-interfaces.md
       - rpg-camera/other-render-pipelines.md
+      - rpg-camera/faq.md
       - rpg-camera/version-history.md
   - RTS Camera:
       - rts-camera/introduction.md
-  - imprint.md
+  - feature-matrix.md
+  - faq.md
+  - contact.md
 plugins:
   - search
 markdown_extensions:
