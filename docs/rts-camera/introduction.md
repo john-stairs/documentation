@@ -1,17 +1,15 @@
 # Introduction
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This asset is a replica of the vanilla Warcraft III (and similar RTS games) camera controller.
 
-## Commands
+It is developed in Unity and can be bought from their Asset Store: [RTS Camera](https://johnstairs.com/rts-camera/buy.html) (affiliate link)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Features
 
-## Project layout
+<div style="text-align:center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/fyiQiJLGtIk?si=eAV8jdOHmVrH5Yyr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Variables
+
+<div style="text-align:center"><a href="img/variables.jpg"><img src="img/variables.jpg"/></a></div>

@@ -1,5 +1,12 @@
 # Welcome
 
+This is docu of my Unity assets
+
+## How to use
+
+on the left, section for each asset
+each section has dedicated subsections for getting started, demo, faq
+
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Commands

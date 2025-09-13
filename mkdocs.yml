@@ -19,7 +19,6 @@ theme:
   features:
     - search.suggest
     - search.highlight
-    - navigation.footer
     - navigation.sections
     - navigation.instant
 nav:
@@ -36,10 +35,28 @@ nav:
       - rpg-camera/other-render-pipelines.md
       - rpg-camera/faq.md
       - rpg-camera/version-history.md
+  - RPG Cameras & Controllers:
+      - rpg-cameras-and-controllers/introduction.md
+      - rpg-cameras-and-controllers/demo.md
+      - Getting Started:
+        - rpg-cameras-and-controllers/getting-started/project-setup.md
+        - rpg-cameras-and-controllers/getting-started/scene-setup.md
+        - rpg-cameras-and-controllers/getting-started/integrations.md
+        - rpg-cameras-and-controllers/getting-started/videos.md
+      - Components:
+        - rpg-cameras-and-controllers/components/rpg-camera.md
+      - rpg-cameras-and-controllers/useful-interfaces.md
+      - rpg-cameras-and-controllers/faq.md
+      - rpg-cameras-and-controllers/version-history.md
   - RTS Camera:
       - rts-camera/introduction.md
+      - rts-camera/demo.md
+      - rts-camera/getting-started.md
+      - rts-camera/input-handling.md
+      - rts-camera/useful-resources.md
   - feature-matrix.md
   - faq.md
+  - roadmap.md
   - contact.md
 plugins:
   - search
@@ -60,4 +77,4 @@ extra:
     - icon: fontawesome/brands/youtube 
       link: https://www.youtube.com/@johnstairs7246
       name: John Stairs on YouTube
-copyright: Copyright &copy; 2025 John Stairs | <a href="imprint.html">Imprint</a>
+copyright: Copyright &copy; 2025 John Stairs | <a href="/documentation/imprint.html">Imprint</a>

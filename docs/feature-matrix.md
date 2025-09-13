@@ -1,4 +1,4 @@
-## Feature matrix for RPG assets
+# Feature matrix for RPG assets
 
 | Feature | RPG Camera Lite | RPG Camera | RPG Cameras & Controllers |
 | --- | --- | --- | --- |
