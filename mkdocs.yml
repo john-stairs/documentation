@@ -1,4 +1,4 @@
-site_name: John Stairs's documentation
+site_name: John Stairs
 site_url: https://john-stairs.github.io/documentation/
 theme:
   name: material
@@ -56,6 +56,15 @@ nav:
       - rts-camera/getting-started.md
       - rts-camera/input-handling.md
       - rts-camera/useful-resources.md
+  - Planet Platformer Controller:
+      - planet-platformer-controller/introduction.md
+      - planet-platformer-controller/demo.md
+      - Getting Started:
+        - planet-platformer-controller/getting-started/project-setup.md
+        - planet-platformer-controller/getting-started/scene-setup.md
+      - planet-platformer-controller/physics-engine.md
+      - planet-platformer-controller/helpful-tools.md
+      - planet-platformer-controller/version-history.md
   - feature-matrix.md
   - faq.md
   - roadmap.md

@@ -84,7 +84,8 @@ RPG Builder Integration
 
 ### v6.0
 
-NOTE: This version introduces major breaking changes! It is recommended to stay at your current version if you do not need any of this version's new features or bugfixes. Always keep a version control or backup in place to be able to roll back your project to an earlier version in case of issues due to incompatibilities!
+!!! warning
+    This version introduces major breaking changes! It is recommended to stay at your current version if you do not need any of this version's new features or bugfixes. Always keep a version control or backup in place to be able to roll back your project to an earlier version in case of issues due to incompatibilities!
 
 Large RPGCamera and RPGMotor refactoring
 
@@ -360,9 +361,8 @@ General
 
 ### v4.3.1
 
-General
-
-- Note: Due to a bug in RPGBuilder v1.1.x, it is recommended to uncheck integration variable "UIPanelsDisableControls" until the release of RPGBuilder v1.1.0.8!
+!!! bug
+    Due to a bug in RPGBuilder v1.1.x, it is recommended to uncheck integration variable "UIPanelsDisableControls" until the release of RPGBuilder v1.1.0.8!
 
 RPGBuilder Integration
 
@@ -573,3 +573,7 @@ Changes & Improvements
 - New public variable "fallingThreshold" in "RPG_Controller" defining the terrain height at which the character starts to stumble
 - Setting the layer of PlayerChar to "Ignore Raycast" is not necessary anymore
 - Some code and names improved/edited for clearer
+
+### v1.0
+
+- Release
