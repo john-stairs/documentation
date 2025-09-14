@@ -2,7 +2,9 @@
 
 ## Download
 
-[RPG Camera (Lite & Full)](https://johnstairs.com/rpg-camera/demo.html) \[Windows\]
+[RPG Cameras and Controllers](https://johnstairs.com/rpg-cameras-and-controllers/demo.html) \[Windows\]
+
+[RPG Cameras and Controllers](https://johnstairs.com/rpg-cameras-and-controllers/demo-mac.html) \[Mac\]
 
 ## Controls
 

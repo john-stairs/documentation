@@ -2,7 +2,7 @@
 
 This asset is a replica of the vanilla Warcraft III (and similar RTS games) camera controller.
 
-It is developed in Unity and can be bought from their Asset Store: [RTS Camera](https://johnstairs.com/rts-camera/buy.html) (affiliate link)
+It is developed in Unity and can be bought from their Asset Store: [RTS Camera](https://johnstairs.com/rts-camera/buy.html) (affiliate link).
 
 ## Features
 

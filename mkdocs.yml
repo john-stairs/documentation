@@ -45,6 +45,8 @@ nav:
         - rpg-cameras-and-controllers/getting-started/videos.md
       - Components:
         - rpg-cameras-and-controllers/components/rpg-camera.md
+        - rpg-cameras-and-controllers/components/rpg-view-frustum.md
+        - rpg-cameras-and-controllers/components/rpg-motors.md
       - rpg-cameras-and-controllers/useful-interfaces.md
       - rpg-cameras-and-controllers/faq.md
       - rpg-cameras-and-controllers/version-history.md

@@ -4,11 +4,11 @@ Below you find interfaces that you can implement to create custom components tha
 
 ## RPGCamera subcomponents
 
-Every subcomponent of the RPGCamera is based on an interface which can be found in the "Interfaces" subfolder. For a custom subcomponent, implement the corresponding interface and assign it to the game object. Make sure that there is only one component per interface assigned. If the custom subcomponent was found, its entry will be displayed in green at the top of the RPGCamera script.
+Every subcomponent of the RPGCamera is based on an interface which can be found in the Interfaces subfolder. For a custom subcomponent, implement the corresponding interface and assign it to the game object. Make sure that there is only one component per interface assigned. If the custom subcomponent was found, its entry will be displayed in green at the top of the RPGCamera script.
 
 ## ICursorHandler
 
-This interface is used by the RPGController to control cursor behavior and UI consideration. It provides methods to show and hide the cursor, or method "IsCursorOverUI" for checking if the cursor is over an UI element. Check out the provided **CursorHandler** which implements this interface. Depending on the result of "IsCursorOverUI", the RPGController allows or disallows camera control.
+This interface is used by the RPGController to control cursor behavior and UI consideration. It provides methods to show and hide the cursor, or method `IsCursorOverUI` for checking if the cursor is over an UI element. Check out the provided **CursorHandler** which implements this interface. Depending on the result of `IsCursorOverUI`, the RPGController allows or disallows camera control.
 
 ## IMotor
 

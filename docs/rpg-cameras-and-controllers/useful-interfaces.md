@@ -1,17 +1,22 @@
 # Useful Interfaces
 
-Below you find interfaces that you can implement to create custom components that seamlessly integrate with my asset.
+Below you find interfaces that you can implement with your own scripts. 
 
-## RPGCamera subcomponents
+!!! note
+    These implementing classes/components have to be assigned to the same object as my RPG camera or motor scripts which should use them.
 
-Every subcomponent of the RPGCamera is based on an interface which can be found in the "Interfaces" subfolder. For a custom subcomponent, implement the corresponding interface and assign it to the game object. Make sure that there is only one component per interface assigned. If the custom subcomponent was found, its entry will be displayed in green at the top of the RPGCamera script.
+## IPointerInfo
 
-## ICursorHandler
+This interface is used by the RPG Camera. It provides the method `IsPointerOverGUI` for checking if the cursor is over an UI element and – as a result – deactivates all camera input logic. Since this asset does not provide an own UI, feel free to implement this interface in your own code to seamlessly integrate my camera logic. Refer to provided component **RPGPlayerExample** to see an example implementation using the Utils method `IsPointerOverGUI`.
 
-This interface is used by the RPGController to control cursor behavior and UI consideration. It provides methods to show and hide the cursor, or method "IsCursorOverUI" for checking if the cursor is over an UI element. Check out the provided **CursorHandler** which implements this interface. Depending on the result of "IsCursorOverUI", the RPGController allows or disallows camera control.
+## IPlayer
 
-## IMotor
+This interface is mainly used by the RPG Motor. It provides methods such as `CanMove`, `CanRotate` or `CanFly`. As the names suggest, implement these methods for applying movement or rotation impairing effects on the character or enabling/disabling flying or a target lock. Refer to the provided **RPGPlayerExample** script inside the Character folder for an example interface implementation.
 
-Implement this interface if you want to use the RPGController for controlling character movement as well. An example implementation can be found in **RPGMotorExample**. 
+## ITransportable
 
-Note: It is not required to have a component implementing this interface on the character game object to make the RPGCamera work. However, there are use cases where orchestration between camera and motor is required. Example: The Rotation Sync (character and camera rotating together) cannot work if the rotated degrees of the character is not known.
+Implement this interface to make an object transportable for the Moving Platform (see the RPGMotor script for an example implementation). 
+
+## IRPGCamera, IRPGViewFrustum, IRPGController, IRPGMotor
+
+For completeness, there are also interfaces provided for each of the character scripts. So feel free to easily replace one of my components by implementing the corresponding interface yourself. 
