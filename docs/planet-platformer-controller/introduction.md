@@ -1,8 +1,6 @@
 # Introduction
 
-TODO nur noch Intro schreiben
-
-This asset is a replica of the vanilla Warcraft III (and similar RTS games) camera controller.
+This asset tries to replicate the character controller of Super Mario Galaxy. It therefore implements an own physics engine for travelling between planet and platforms.
 
 It is developed in Unity and can be bought from their Asset Store: [Planet Platformer Controller](https://johnstairs.com/planet-platformer-controller/buy.html).
 
