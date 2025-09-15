@@ -19,7 +19,7 @@ At every time, there is at most one gravitational field physically affecting the
 
 The strongest gravitational field is picked from all the fields which could currently affect the character, i.e. all field trigger colliders which contain the character object. Generally, a field with a higher priority wins over the other. If the priorities are the same, for each field a ray is cast from the character along the field lines detecting only hits with objects which have the "Ground" layer assigned. The Ground object whose surface is closest to the character game object wins. Note that this means that grounds and gravitational fields can act independently. After a strongest gravitational field is found, the gravity vector of that field is applied to the character game object. The direction of the gravity vector results from the field lines multiplied by the field's gravity.
 
-!! note    
+!!! note    
     As the range and therefore the influence of a gravitational field depends on the attached collider size, it is recommended to leave the collider component scales to 1 and scale the whole gravitational field prefab instead for convenience.
 
 ## Character alignment
