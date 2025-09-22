@@ -64,6 +64,7 @@ nav:
         - planet-platformer-controller/getting-started/scene-setup.md
       - planet-platformer-controller/physics-engine.md
       - planet-platformer-controller/helpful-tools.md
+      - planet-platformer-controller/faq.md
       - planet-platformer-controller/version-history.md
   - feature-matrix.md
   - faq.md

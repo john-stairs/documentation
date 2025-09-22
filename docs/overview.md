@@ -3,7 +3,7 @@
 Here is a short overview of the Unity assets documented on this website and what they represent:
 
 - [RPG Camera Lite](./rpg-camera/introduction.md): Basically the vanilla World of Warcraft camera controller without character fade-out and camera look-up when touching the ground.
-- [RPG Camera](./rpg-camera/introduction.md): Vanilla World of Warcraft camera controller + fading of objects which are in the way + intelligent pivot positioning ([details](./rpg-camera/introduction.html#variables)).
+- [RPG Camera](./rpg-camera/introduction.md): Vanilla World of Warcraft camera controller + fading of objects which are in the way + intelligent pivot positioning ([details](./rpg-camera/introduction.md#variables)).
 - [RPG Cameras & Controllers](./rpg-cameras-and-controllers/introduction.md): RPG camera and character controllers inspired by famous MMO or Action RPGs.
 - [RTS Camera](./rts-camera/introduction.md): The vanilla Warcraft III camera controller.
 - [Planet Platformer Controller](./planet-platformer-controller/introduction.md): Replica of the character controller of Super Mario Galaxy.

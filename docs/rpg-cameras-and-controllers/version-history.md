@@ -1,7 +1,5 @@
 # Version History
 
-<!-- Version 6 is considered to be the final version. New features will only be implemented as part of a new project. Of course, bug fixes and support will be provided as usual. -->
-
 ### v6.1.3
 
 General
