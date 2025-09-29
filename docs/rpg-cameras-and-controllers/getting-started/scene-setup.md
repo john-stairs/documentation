@@ -29,9 +29,9 @@ Now, you can change the animations of the corresponding animation state or anima
 And here are screenshots how their corresponding blend trees are properly set up in the Character animator:
 
 <div style="text-align:center">
-    <img src="img/blend-tree-crouching.png" width="45%"/>
-    <img src="img/blend-tree-free-climbing.png" width="45%"/>
-    <img src="img/blend-tree-grabbing-ledge.png" width="45%"/>
+    <img src="../img/blend-tree-crouching.png" width="45%"/>
+    <img src="../img/blend-tree-free-climbing.png" width="45%"/>
+    <img src="../img/blend-tree-grabbing-ledge.png" width="45%"/>
 </div>
      
 \* Animation "Crouch Walk Left" is just a copy of "Crouch Walk Forward" with 90° Root Transform Rotation offset.

@@ -12,4 +12,4 @@ It is developed in Unity and can be bought from their Asset Store: [RTS Camera](
 
 ## Variables
 
-<div style="text-align:center"><a href="img/variables.jpg"><img src="img/variables.jpg"/></a></div>
+<div style="text-align:center"><a href="../img/variables.jpg"><img src="../img/variables.jpg"/></a></div>

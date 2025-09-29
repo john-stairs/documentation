@@ -6,6 +6,6 @@
 
 ## Controls
 
-<div style="text-align:center"><img src="img/controls.jpg"/></div>
+<div style="text-align:center"><img src="../img/controls.jpg"/></div>
 
 See [Input handling](input-handling.md) for more information.

@@ -17,4 +17,4 @@ Refer to the [Feature matrix for my RPG assets](../feature-matrix.md) if you wou
 
 ## Variables
 
-<div style="text-align:center"><a href="img/variables.jpg"><img src="img/variables.jpg"/></a></div>
+<div style="text-align:center"><a href="../img/variables.jpg"><img src="../img/variables.jpg"/></a></div>

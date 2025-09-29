@@ -13,7 +13,7 @@ All scripts which are related to the character can be found inside Scripts > Cha
 1. (Optional) **RPGMotorExample:** Example character motor implementation based on [Unity's Character Controller documentation](https://docs.unity3d.com/ScriptReference/CharacterController.Move.html). Used as a proof of concept for working camera and character interaction.
 
 <div style="text-align:center">
-    <img src="img/add-default-button.png"/><br>
+    <img src="../img/add-default-button.png"/><br>
     Note that not every subcomponent is required for the camera to work!
 </div>
 
@@ -21,7 +21,7 @@ All scripts which are related to the character can be found inside Scripts > Cha
 
 Some of the provided camera subcomponents work with layer masks to filter processed game objects. There are explanation tooltips for each variable that are displayed when hovering over a variable label. Nevertheless, a short example does not harm:
 
-<div style="text-align:center"><img src="img/layer-mask-example.png"/></div>
+<div style="text-align:center"><img src="../img/layer-mask-example.png"/></div>
  
 The View Frustum describes what is in view between the camera and the camera pivot (defined by the Pivot subcomponent). With the setup above, only game objects inside layers "Default" and "TransparentFX" are recognized. However, game objects inside these layers with tag "Player" are ignored.
 
@@ -36,7 +36,7 @@ To make the fading of game objects work, they need to have a material with a Tra
 If the shader does not have ZWrite enabled by default (like the one mentioned above), it will be enabled when the material enters the view frustum and should be faded. However, for complex objects, ZWrite needs to be enabled on game start to be displayed properly. To accomplish this, you can assign the provided EnableMaterialZWrite script to the game object (see the "House" demo prefab as an example).
    
 <div style="text-align:center">
-    <img src="img/zwrite-example-left.png" width="50%"/><img src="img/zwrite-example-right.png" width="50%"/><br>
+    <img src="../img/zwrite-example-left.png" width="50%"/><img src="../img/zwrite-example-right.png" width="50%"/><br>
     Left: ZWrite disabled | Right: ZWrite enabled.
 </div>
 

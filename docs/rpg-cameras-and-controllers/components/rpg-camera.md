@@ -16,9 +16,7 @@ Skybox which is currently used or should be used by the camera object. The skybo
 
 This is the local position of the camera pivot, the "anchor" of the virtual camera. Turn on the script's Gizmos to visualize it as a small cyan sphere (see on the right).
 
-<div style="text-align:center">
-    <img src="img/pivot-position.png"/>
-</div>
+<div style="text-align:center"><img src="../img/pivot-position.png"/></div>
 
 ## Internal and external Pivot
 

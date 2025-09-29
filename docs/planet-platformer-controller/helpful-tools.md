@@ -14,7 +14,7 @@ Gizmos related to the character:
 - Black (PPMotor): Check rays for detecting ledges to hold on and climb up.
 - Yellow (PPCharacter): Visualization of the punch height, radius and distance
 
-<div style="text-align:center"><img src="img/gizmos.png"/><br></div>
+<div style="text-align:center"><img src="../img/gizmos.png"/><br></div>
 
 Gizmos related to vector/gravitational fields:
 

@@ -12,9 +12,7 @@ The occluding layers determine which game objects in the scene are processed by 
 
 Objects which should be faded out in this case instead of causing a zoom in can either be tagged with one of the "Tags For Fading" or assigned to a layer of layer mask "Layers For Fading". From v5.3 on, you can also choose the provided script/component "FadeOut" as a criterion for fading objects.
 
-<div style="text-align:center">
-    <img src="img/occlusion-handling.jpg"/>
-</div>
+<div style="text-align:center"><img src="../img/occlusion-handling.jpg"/></div>
 
 ## Tags/Layers/Component Causing Look Up
 

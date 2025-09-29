@@ -6,4 +6,4 @@
 
 ## Controls
 
-<div style="text-align:center"><img src="img/controls.jpg"/></div>
+<div style="text-align:center"><img src="../img/controls.jpg"/></div>
