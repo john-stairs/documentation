@@ -2,6 +2,8 @@ site_name: John Stairs
 site_url: https://john-stairs.github.io/documentation/
 theme:
   name: material
+  logo: img/logo_embedded.png
+  favicon: img/favicon.png
   palette:
     # Palette toggle for light mode
     - scheme: default
