@@ -1,5 +1,10 @@
 # Version History
 
+### v2.1
+
+- Update to Unity 6000.0.58f2
+- Simplified demo scene
+
 ### v2.0
 
 !!! warning

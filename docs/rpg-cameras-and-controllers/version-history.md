@@ -1,5 +1,14 @@
 # Version History
 
+### v6.2
+
+- Update to Unity 6000.0.58f2
+- Bugfix: Materials without the maintained shader properties should no longer be processed
+- Bugfix: Box colliders in the URP Playground demo should now be correctly aligned again
+- Bugfix: Provided jump animation no longer loops 
+- Trigger colliders are now also correctly recognized by the view frustum
+- RPG Builder integration: Disable target lock on key press by default
+
 ### v6.1.3
 
 General
