@@ -1,0 +1,3544 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://john-stairs.github.io/documentation/rpg-cameras-and-controllers/version-history/">
+      
+      
+        <link rel="prev" href="../faq/">
+      
+      
+        <link rel="next" href="../../rts-camera/introduction/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../img/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Version History - John Stairs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#version-history" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="John Stairs" class="md-header__button md-logo" aria-label="John Stairs" data-md-component="logo">
+      
+  <img src="../../img/logo_embedded.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            John Stairs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Version History
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="John Stairs" class="md-nav__button md-logo" aria-label="John Stairs" data-md-component="logo">
+      
+  <img src="../../img/logo_embedded.png" alt="logo">
+
+    </a>
+    John Stairs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Welcome
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RPG Camera
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    RPG Camera
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rpg-camera/introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rpg-camera/demo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Demo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Getting Started
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rpg-camera/getting-started/project-setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project Setup
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rpg-camera/getting-started/scene-setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scene Setup
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rpg-camera/getting-started/video/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Video
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rpg-camera/useful-interfaces/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Useful Interfaces
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rpg-camera/other-render-pipelines/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Other render pipelines or custom shaders
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rpg-camera/faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Frequently asked questions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rpg-camera/version-history/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Version History
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RPG Cameras & Controllers
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    RPG Cameras & Controllers
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../demo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Demo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Getting Started
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/project-setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project Setup
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/scene-setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scene Setup
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/integrations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Integrations to other assets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/videos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Videos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Components
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Components
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../components/rpg-camera/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RPG Camera
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../components/rpg-view-frustum/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RPG View Frustum
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../components/rpg-motors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RPG Motors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../useful-interfaces/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Useful Interfaces
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Frequently asked questions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Version History
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Version History
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#v62" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v6.2
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v613" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v6.1.3
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v612" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v6.1.2
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v611" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v6.1.1
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v61" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v6.1
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v60" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v6.0
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v55" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v5.5
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v542" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v5.4.2
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v541" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v5.4.1
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v54" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v5.4
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v534" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v5.3.4
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v533" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v5.3.3
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v532" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v5.3.2
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v531" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v5.3.1
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v53" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v5.3
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v52" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v5.2
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v511" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v5.1.1
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v51" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v5.1
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v503" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v5.0.3
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v502" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v5.0.2
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v501" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v5.0.1
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v50" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v5.0
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v432" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v4.3.2
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v431" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v4.3.1
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v43" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v4.3
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v421" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v4.2.1
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v42" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v4.2
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v41" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v4.1
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v401" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v4.0.1
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v40" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v4.0
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v373" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v3.7.3
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v372" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v3.7.2
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v371" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v3.7.1
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v37" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v3.7
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v36" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v3.6
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v35" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v3.5
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v34" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v3.4
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v33" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v3.3
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v32" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v3.2
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v31" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v3.1
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v30" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v3.0
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v2.1
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v2.0
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v1.1
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v1.0
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RTS Camera
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    RTS Camera
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rts-camera/introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rts-camera/demo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Demo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rts-camera/getting-started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rts-camera/input-handling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Input handling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rts-camera/useful-resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Useful resources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planet Platformer Controller
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Planet Platformer Controller
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planet-platformer-controller/introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planet-platformer-controller/demo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Demo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Getting Started
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planet-platformer-controller/getting-started/project-setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project Setup
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planet-platformer-controller/getting-started/scene-setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scene Setup
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planet-platformer-controller/physics-engine/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Physics engine
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planet-platformer-controller/helpful-tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Helpful tools
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planet-platformer-controller/faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Frequently asked questions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planet-platformer-controller/version-history/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Version History
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feature-matrix/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Feature matrix for RPG assets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Frequently asked questions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../roadmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Roadmap
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contact
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#v62" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v6.2
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v613" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v6.1.3
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v612" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v6.1.2
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v611" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v6.1.1
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v61" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v6.1
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v60" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v6.0
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v55" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v5.5
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v542" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v5.4.2
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v541" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v5.4.1
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v54" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v5.4
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v534" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v5.3.4
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v533" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v5.3.3
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v532" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v5.3.2
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v531" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v5.3.1
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v53" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v5.3
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v52" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v5.2
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v511" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v5.1.1
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v51" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v5.1
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v503" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v5.0.3
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v502" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v5.0.2
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v501" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v5.0.1
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v50" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v5.0
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v432" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v4.3.2
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v431" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v4.3.1
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v43" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v4.3
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v421" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v4.2.1
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v42" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v4.2
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v41" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v4.1
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v401" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v4.0.1
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v40" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v4.0
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v373" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v3.7.3
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v372" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v3.7.2
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v371" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v3.7.1
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v37" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v3.7
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v36" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v3.6
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v35" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v3.5
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v34" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v3.4
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v33" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v3.3
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v32" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v3.2
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v31" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v3.1
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v30" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v3.0
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v2.1
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v2.0
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v1.1
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        v1.0
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="version-history">Version History<a class="headerlink" href="#version-history" title="Permanent link">&para;</a></h1>
+<h3 id="v62">v6.2<a class="headerlink" href="#v62" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Update to Unity 6000.0.58f2</li>
+<li>Bugfix: Materials without the maintained shader properties should no longer be processed</li>
+<li>Bugfix: Box colliders in the URP Playground demo should now be correctly aligned again</li>
+<li>Bugfix: Provided jump animation no longer loops </li>
+<li>Trigger colliders are now also correctly recognized by the view frustum</li>
+<li>RPG Builder integration: Disable target lock on key press by default</li>
+</ul>
+<h3 id="v613">v6.1.3<a class="headerlink" href="#v613" title="Permanent link">&para;</a></h3>
+<p>General</p>
+<ul>
+<li>Upgrade to Unity 2021.3 (LTS)</li>
+<li>Minor updates to the written manual</li>
+</ul>
+<p>RPGCamera</p>
+<ul>
+<li>The menu cursor no longer disables character movement</li>
+</ul>
+<p>RPG Builder Integration</p>
+<ul>
+<li>Opening a UI panel no longer disables camera control in an MMO setup</li>
+<li>By default, the "UseRPGBuilderActionKeys" of the RPGControllerIntegration component is now disabled to avoid confusion</li>
+<li>Bugfix: Cursor Behavior "Stay" now properly triggers NPC interaction on the set up interaction distance</li>
+<li>Bugfix: Adjusted the provided integrated character prefabs so that no longer two components of type IPlayer are assigned. In some cases, this enabled control over the character even if it was not allowed</li>
+<li>Bugfix: Updated animations that were used by both assets to prevent collisions during import</li>
+</ul>
+<h3 id="v612">v6.1.2<a class="headerlink" href="#v612" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Bugfix: The legacy input name for the mouse scroll wheel should now be properly typed inside the RPGCamera script (thanks for reporting, Naked Fighter!)</li>
+<li>Bugfix: The FadeIn alpha of objects to fade is now properly reached in every case (thanks for reporting!)</li>
+<li>Bugfix: The Character Controller component is now a technical requirement of the RPGMotor scripts, i.e. it is added if it does not already exist on the same game object</li>
+<li>Bugfix: The motor script should no longer throw an error if there was no Animator component found</li>
+<li>The provided Utils method "IsPointerOverGUI" is now only checking for objects in layers of the passed layer mask (thanks for the feedback, Dan!)</li>
+<li>A warning is now logged in the console if there is no Input Action Asset assigned to the used Player Input component</li>
+<li>Added a playground demo scene with URP materials</li>
+</ul>
+<h3 id="v611">v6.1.1<a class="headerlink" href="#v611" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Bugfix: When Cursor Behavior "Stay" was selected, it could happen that character movement or camera rotation stopped when hovering over UI (thanks for the report, Law)</li>
+<li>Bugfix: If the character was strafing via Rotation and Rotation Modifier input and a UI panel was opened, the character continued to strafe instead of stopping</li>
+<li>Added a recommendation to the RPGBuilder README file about the "Toggle Menu Cursor" input action</li>
+<li>Handled animation errors that caused a floating character model (thanks for the support, Alexi!)</li>
+</ul>
+<h3 id="v61">v6.1<a class="headerlink" href="#v61" title="Permanent link">&para;</a></h3>
+<p>General</p>
+<ul>
+<li>RPGController and RPGCamera are now using Unity's PlayerInput component for easier management of input actions<ul>
+<li>As a result, you can now easily swap the provided input actions with your own</li>
+<li>Additionally, you do not have to define all actions that were required for my scripts before. Missing actions will just cause the corresponding functionality to be disabled</li>
+<li>There is a new button in each input handling script for checking the current input setup and logging the results to the console</li>
+<li>Default Control Schemes "Keyboard + Mouse" and "Gamepad" are provided</li>
+<li>The previously used RPGInputManager is no longer supported!</li>
+</ul>
+</li>
+<li>Updated the manual that RPGPlayerExample also provides an example implementation of interface IPointerInfo to disable/enable asset controls when the cursor is over a UI element</li>
+<li>Asset includes now a dependency to Unity's Input System. This does not mean that its usage is mandatory. The legacy input system/manager can still be used as before</li>
+<li>Added missing materials of the capsules in the Playground demo scene</li>
+</ul>
+<p>RPGMotor &amp; RPGController</p>
+<ul>
+<li>New: Now uses Unity's PlayerInput component for input action handling (see corresponding item under "General")</li>
+<li>New: New public variable "SteadyAcceleration" for changing the maintenance of character acceleration to either time in seconds (current) or unit/s² (new) (thanks for the request!)</li>
+<li>New: Getter method for the current movement speed (thanks for the request!)</li>
+<li>New: Getter method for the current movement direction (thanks for the request, Law!)</li>
+<li>Bugfix: No longer race conditions between Controller and Motor initialization, e.g. in async scene (pre-)loading setups (thanks for reporting, pryankster!)</li>
+<li>Bugfix: Jumping out of the water should work again now properly</li>
+<li>Bugfix: The swimming animation is now properly played after sliding into the water from unwalable terrain (thanks for reporting, Shaq!)</li>
+<li>Bugfix: The MMO motor should no longer snap back to the horizontal plane when swimming</li>
+<li>Bugfix: ARPG motor midair movement via WASD is possibly again (thanks for reporting, Alex!)</li>
+<li>Bugfix: Swimming out of water boxes via surfacing or diving actions should now properly work again. The causing logic was disabled</li>
+<li>Refactoring of the interpretation of the RotationTime variable for the ARPG motor. Since it was in direct competition to variable AlignmentTime, it was removed to provide only a single variable for the purpose of controlling the time needed for the character to rotate to the target movement direction</li>
+<li>Extended the tooltip of the RunSpeed variable to make clearer that this is the default movement speed of the character</li>
+</ul>
+<p>RPGCamera &amp; RPGViewFrustum</p>
+<ul>
+<li>New: Now uses Unity's PlayerInput component for input action handling (see corresponding item under "General")</li>
+<li>New: Public variable "Pause [Alignment With Character] While Orbiting". If set to true, rotating the camera pauses camera alignment with the character. This is useful in situations where the character is locked on a target</li>
+<li>Bugfix: Dynamical assignment of the used camera is now implemented, i.e. later changes to the camera reference, e.g. due to async scene load, should be no problem anymore (thanks for reporting, pryankster!)</li>
+<li>Bugfix: The character no longer fades out earlier when zooming in very quickly (thanks for reporting, Law!)</li>
+<li>Bugfix: There is no longer an exception thrown when the script was initially disabled on the ARPG prefab</li>
+<li>Bugfix: Made the logic of material fade-out/in more robust (thanks for reporting, Wei!)</li>
+<li>Improved the RPGCameraEditor for smoothed pivots. The script parameters should no longer flicker between internal and external settings when pivot movement smoothing was enabled</li>
+</ul>
+<p>RPG Builder Integration</p>
+<ul>
+<li>Bugfix: Input handling for action "CancelClimbing" was missing in the integrated controller scenario (thanks for reporting, Petr!)</li>
+<li>Bugfix: Animation transition for climbing was missing in the integrated animator (thanks for reporting, Petr!)</li>
+</ul>
+<h3 id="v60">v6.0<a class="headerlink" href="#v60" title="Permanent link">&para;</a></h3>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This version introduces major breaking changes! It is recommended to stay at your current version if you do not need any of this version's new features or bugfixes. Always keep a version control or backup in place to be able to roll back your project to an earlier version in case of issues due to incompatibilities!</p>
+</div>
+<p>Large RPGCamera and RPGMotor refactoring</p>
+<ul>
+<li>Unified RPGCamera script: There is no longer a difference between the ARPG and the MMO camera</li>
+<li>Streamlined RPGMotors: Normalization of motor functionality, much leaner RPGMotorARPG and RPGMotorMMO components</li>
+<li>A single, enhanced Animator Controller</li>
+<li>Easier extensibility and maintainability</li>
+<li>Interfaces provided for each of the provided RPG scripts</li>
+<li>More user-friendly Editor scripts</li>
+<li>Unity's Input System is now used by default and usage of Unity's legacy input system, the Input Manager, has to be enabled explicitely by setting the corresponding public variable "UseLegacyInputSystem" to true</li>
+</ul>
+<p>RPGMotor</p>
+<ul>
+<li>New: Ledge grabbing mechanic: Jump to ledges to grab them, move left and right along them and let go or climb up via input</li>
+<li>New: Free climbing mechanic: Move towards simple colliders to start climbing them. Climb in all directions and transition to ledge grabbing (if enabled as well)</li>
+<li>New: Crouching now also available for the MMO motor</li>
+<li>New: Strafing now also available for the ARPG motor</li>
+<li>New: In-place rotation now also available for the ARPG motor</li>
+<li>New: Public ARPG variable "AlwaysTurnToCursor" for letting the character always rotate towards the cursor (thanks for the request, Stefan!)</li>
+<li>New: Public variable "AccelerationTime" for defining the time needed until the target movement speed is reached (thanks for the request, Venzo!)</li>
+<li>New: Alignment with the camera view direction on input now also available for the ARPG motor</li>
+<li>New: Implementation of a "perfectly" timed jump mechanic for rewarding the player (thanks for the request!)</li>
+<li>New: Public method "GetCurrentState" for getting an Enum which represents the current motor state, e.g. Idle, Running, Jumping, Swimming (thanks for the request!)</li>
+<li>Bugfix: The jump animation is now always triggered when a jump at the water surface is performed</li>
+<li>Bugfix: The character is now immediately grounded at the start of the scene and not just after 1 or 2 frames</li>
+<li>Bugfix: Check routines now properly scale with the scale of the game object</li>
+</ul>
+<p>RPGController</p>
+<ul>
+<li>New: Public variable "NormalizeInputValues" for normalizing player/controller input</li>
+<li>Bugfix: Input events are now properly consumed if controls are disabled</li>
+</ul>
+<p>RPGCamera &amp; RPGViewFrustum</p>
+<ul>
+<li>New: Camera shake effect with multiple new public variables and a simulation mode for easier setup (thanks for all the requests, everyone!)</li>
+<li>New: Camera follow behavior "Lazy" for a camera which only follows its pivot/character when it comes too close or moves too far away (see new prefab "EllenLazyARPG") (thanks for the request, William!)</li>
+<li>New: Public variable "SkipWaterSurface" for disabling/enabling the camera from continuously passing through water surfaces (thanks for the request, Joni!)</li>
+<li>New: The camera no longer zooms in completely when the frustum between the character and an external pivot is occluded</li>
+<li>New: Public variable "PivotSmoothTime" for smoothing pivot movement (also for internal pivots) (thanks for the request, Shaq!)</li>
+<li>New: Public variable "RelativeToCharacter" for setting if the start rotation should be relative to character transform or world transform (especially helpful in isometric setups) (thanks for reporting, Adam)</li>
+<li>New: "Toggle Menu Cursor" input for toggling a menu cursor, e.g. in case you have selected to always hide the cursor and need to enable/disable the cursor for UI interaction</li>
+<li>New: Public variable "OnlyIfLockedOnTarget" for aligning the camera with the character only if the character is locked on a target</li>
+<li>Bugfix: Orbiting behavior "Stay" no longer breaks when pressing and releasing LM and RM alternating (thanks for reporting, Joe!)</li>
+<li>Bugfix: Camera look up should now also properly work on very fast rotations</li>
+<li>Bugfix: The RotationSmoothTime is now also applied to the camera look up mechanic</li>
+<li>Bugfix: Method "MoveTo" should now work properly again</li>
+<li>Bugfix: Using layers for the camera look up mechanic should now work properly with all set up layers</li>
+<li>Bugfix: Objects now immediately fade out when the camera is forced to zoom in completely due to occlusion</li>
+<li>Bugfix: Input events are now properly consumed if controls are disabled</li>
+<li>Bugfix: Smooth transitioning is now also applied to the distance when using "SetPositionByParameters" method</li>
+<li>Improved cursor handling (bugfixes and less interferences)</li>
+<li>The ViewportMargin moved from the RPGViewFrustum to the RPGCamera</li>
+<li>Renamed "PivotSmoothTime" for smoothing the intelligent pivot movement to "IntelligentPivotSmoothTime" to prevent naming conflicts with the general pivot smoothing</li>
+</ul>
+<h3 id="v55">v5.5<a class="headerlink" href="#v55" title="Permanent link">&para;</a></h3>
+<p>RPGMotor</p>
+<ul>
+<li>New: Whenever the character is stuck due to (endless sliding), an anti-stuck mechanic is enabled. Public variable "AntiStuckTimeout" stores the corresponding time in seconds which need to pass before</li>
+<li>New: The character now immediately falls down when hit on the head during jumping</li>
+<li>Bugfix: The character should now again be moveable in Scene view while in play mode</li>
+</ul>
+<p>RPGBuilder Integration</p>
+<ul>
+<li>New: Shapeshifting is now supported. Please use the Animator Controllers provided in the corresponding integration folder</li>
+<li>Bugfix: The cursor should now properly interact with GUI panels which are opened while in aiming mode</li>
+</ul>
+<p>RPGCamera</p>
+<ul>
+<li>Refactored the cursor handling</li>
+</ul>
+<h3 id="v542">v5.4.2<a class="headerlink" href="#v542" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Bugfix: Disabling the aim feature for mounts in RPGBuilder no longer triggers a RPGCamera parameter reset</li>
+</ul>
+<h3 id="v541">v5.4.1<a class="headerlink" href="#v541" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Added code to the RPGCamera to prevent an incorrect setup of using "AlwaysRotateCamera" together with cursor behavior "Stay"</li>
+</ul>
+<h3 id="v54">v5.4<a class="headerlink" href="#v54" title="Permanent link">&para;</a></h3>
+<p>General</p>
+<ul>
+<li>Disabled Domain and Scene Reloading is supported now (Editor &gt; Enter Play Mode Settings) (thanks for the request, Dale!)</li>
+<li>Provided more documentation about default return value of the ICharacterInfo interface methods</li>
+<li>Added experimental support for URP (Universal Render Pipeline) (thanks, Arcanor!)</li>
+<li>Added the arrow keys to the default key bindings for movement</li>
+<li>Minor housekeeping</li>
+</ul>
+<p>RPGCamera</p>
+<ul>
+<li>New: Public variable "EnableUnderwaterEffect" for turning the underwater effect on/off</li>
+<li>Bugfix: Issue with the cursor handling when "AlwaysRotateCamera" and cursor behavior "LockInCenter" were used together</li>
+<li>Bugfix: No interference between enabled "AlwaysRotateCamera" and "AlignCameraWhenMoving" anymore</li>
+<li>Bugfix: Cursor visibility should now be correctly handled in all cases when activating and deactivating the camera control</li>
+<li>Cursor handling further optimized</li>
+</ul>
+<p>RPGMotor</p>
+<ul>
+<li>New: Public variable "EnableSwimmingJumps" which controls if jumps while swimming at the water surface are possible</li>
+<li>Bugfix: Bumping into the water surface from below should no longer cause character jittering</li>
+</ul>
+<p>RPGBuilder Integration</p>
+<ul>
+<li>New: Implemented the aiming feature</li>
+<li>Bugfix: It should no longer be possible to start while sliding down a slope</li>
+</ul>
+<h3 id="v534">v5.3.4<a class="headerlink" href="#v534" title="Permanent link">&para;</a></h3>
+<p>RPGBuilder Integration</p>
+<ul>
+<li>Bugfix: Jumping animation now correctly triggered while mounted (thanks for reporting, 3PO!)</li>
+<li>Bugfix: Animations while swimming should work properly now when mounted</li>
+</ul>
+<h3 id="v533">v5.3.3<a class="headerlink" href="#v533" title="Permanent link">&para;</a></h3>
+<p>RPGCamera</p>
+<ul>
+<li>Bugfix: Cursor y axis computation with cursor behavior "Stay" should now work correctly in builds for newer Unity releases (please write me the used Unity version if you are still affected!)</li>
+</ul>
+<p>RPGBuilder Integration</p>
+<ul>
+<li>Implemented a workaround for stopping the casting animation after the cast has finished</li>
+</ul>
+<h3 id="v532">v5.3.2<a class="headerlink" href="#v532" title="Permanent link">&para;</a></h3>
+<p>RPGMotor</p>
+<ul>
+<li>New: Public method IsSliding for checking if the character is currently sliding or not (thanks for the request, Min!)</li>
+<li>Bugfix: Usage of interface method "CanMove" does no longer cause slowed falling</li>
+</ul>
+<p>RPGBuilder Integration</p>
+<ul>
+<li>Mount support - please refer to the README for the additional setup step (thanks for your support, 3PO!)</li>
+<li>Added an animation state for flying without a mount</li>
+</ul>
+<p>Misc</p>
+<ul>
+<li>Water bugfix: The global water level is now calculated independent of the local box collider position and scale (thanks, Joe!)</li>
+</ul>
+<h3 id="v531">v5.3.1<a class="headerlink" href="#v531" title="Permanent link">&para;</a></h3>
+<p>RPGBuilder Integration</p>
+<ul>
+<li>RPGViewFrustum error happening when equipped items are unequipped again should now be fixed (thanks for reporting, everyone!)</li>
+</ul>
+<p>RPGCamera</p>
+<ul>
+<li>For external pivots, additional collider types are now supported: Capsule Collider, Box Collider and Sphere Collider (thanks for the idea, David!)</li>
+</ul>
+<h3 id="v53">v5.3<a class="headerlink" href="#v53" title="Permanent link">&para;</a></h3>
+<p>RPGCamera</p>
+<ul>
+<li>Bugfix: An enabled Intelligent Pivot does no longer interfere with the external pivot setup (thanks for reporting, wuqingman!)</li>
+</ul>
+<p>RPGViewFrustum</p>
+<ul>
+<li>New: Object fading or camera look up can now also be triggered by script. Just assign the provided scripts FadeOut or CauseCameraLookUp, respectively, and you should be good to go. No dedicated tags or layers needed with this setting (thanks for the feature request, Wyldhunt!)</li>
+<li>Moved the initialization code to a better place</li>
+</ul>
+<p>RPGMotor</p>
+<ul>
+<li>Users are now getting a warning if a conflict between the assigned layer and motor layermask IgnoredLayers was detected (thanks for the idea, Wyldhunt)</li>
+</ul>
+<p>Integration</p>
+<ul>
+<li>A manual for simple integration with Mirror or similar networking libraries is now provided</li>
+</ul>
+<p>General</p>
+<ul>
+<li>How to set up the water mechanics is now also part of the written manual</li>
+<li>Moved the third party assets folder into the asset's root directory (thanks for the hint, David)</li>
+</ul>
+<h3 id="v52">v5.2<a class="headerlink" href="#v52" title="Permanent link">&para;</a></h3>
+<p>RPGMotor</p>
+<ul>
+<li>Moving ground object logic is now decentralized. You now need to have the MovingPlatform script and a trigger collider assigned to the platform to have an effect onto the character. Please see section 1.2.6 of the manual or the new "Moving Platform" prefabs for more information!</li>
+<li>Movement due to collision works now much smoother than before</li>
+</ul>
+<p>RPGBuilder Integration</p>
+<ul>
+<li>Regions are now correctly triggered (thanks for reporting, 3PO and Tony - btw. I could not reach you via mail: "Undelivered Mail Returned to Sender")</li>
+<li>Sprinting now properly stops when run out of stamina (thanks for reporting, Paul!)</li>
+<li>Casting while swimming was not possible if the ability had "Move and cast" disabled. This is now fixed (thanks for reporting, 3PO!)</li>
+<li>Animations are now only triggered for the upper body if the character is swimming or flying</li>
+<li>Other RPGBuilder animations like gathering or death added to the integrated animators. Unfortunately, I could not test them myself</li>
+<li>The replaced swimming animations should now also properly be included in the integrated animators</li>
+</ul>
+<p>General</p>
+<ul>
+<li>The gizmo for visualizing the grounded check sphere is now drawn properly when jumping</li>
+<li>Minor housekeeping here and there</li>
+</ul>
+<h3 id="v511">v5.1.1<a class="headerlink" href="#v511" title="Permanent link">&para;</a></h3>
+<p>General</p>
+<ul>
+<li>Replaced the 2 swimming animations from Mixamo by animations which were kindly provided by Naked Fighter, thank you!</li>
+</ul>
+<p>RPGMotor</p>
+<ul>
+<li>New public variable "Ignored Layers" for defining which layers are ignored by motor physics logic, i.e. not considered for the grounded check, sliding check, etc.</li>
+</ul>
+<p>RPGCamera</p>
+<ul>
+<li>New public variable "Pivot Smooth Time" for smoothing the evasive movement of the pivot (intelligent pivot only)</li>
+</ul>
+<h3 id="v51">v5.1<a class="headerlink" href="#v51" title="Permanent link">&para;</a></h3>
+<p>RPGCamera</p>
+<ul>
+<li>Support of external pivot locations</li>
+<li>New "Intelligent Pivot" feature for internal pivots: The intelligent pivot automatically moves away from obstacles which the player could see through if zooming in enough</li>
+<li>ARP: Implemented a proper first person experience</li>
+<li>ARP: Start location setup is now relative to the character transform instead of world coordinates</li>
+</ul>
+<p>RPGViewFrustum</p>
+<ul>
+<li>Implemented a second view frustum shape "Pyramid" with other strengths (and weaknesses) compared to the already implemented "Cuboid" shape</li>
+<li>For object fading, there is now also the possibility to select layers instead of tags</li>
+<li>For the camera look up, there is now also the possibility to select triggering layers instead of tags</li>
+</ul>
+<p>RPGMotor</p>
+<ul>
+<li>Fixed the unnecessary animation firing when trying to swim above the surface</li>
+</ul>
+<h3 id="v503">v5.0.3<a class="headerlink" href="#v503" title="Permanent link">&para;</a></h3>
+<p>RPGBuilder Integration</p>
+<ul>
+<li>Leaping abilities should now work properly</li>
+<li>Fixed animator issues</li>
+</ul>
+<h3 id="v502">v5.0.2<a class="headerlink" href="#v502" title="Permanent link">&para;</a></h3>
+<p>RPGMotor</p>
+<ul>
+<li>New: Public variable "EnableCollisionMovement" for enabling/disabling collision movement. If set to true, the standing character is pushed away by moving objects on collision </li>
+</ul>
+<p>General</p>
+<ul>
+<li>Bugfix: Jumping is now properly disabled when character controls are disabled in the RPGController</li>
+<li>RPGBuilder integration: The character should no longer stick onto moving NPCs, when NPC collision is disabled (thanks for reporting, Joe "atoqed"!)</li>
+<li>Integrity check of ground leaping abilities postponed until Blink has fixed the issue on their end</li>
+</ul>
+<h3 id="v501">v5.0.1<a class="headerlink" href="#v501" title="Permanent link">&para;</a></h3>
+<p>RPGBuilder Integration</p>
+<ul>
+<li>Integrity check of ground leaping abilities postponed to after release of RPGBuilder v2.0.3</li>
+</ul>
+<h3 id="v50">v5.0<a class="headerlink" href="#v50" title="Permanent link">&para;</a></h3>
+<p>General</p>
+<ul>
+<li>This version contains major code restructurings and simplifications! Please be aware that breaking changes are highly likely if you extended my scripts!</li>
+<li>Asset rebranding to "RPG Cameras &amp; Controllers" to better reflect the current content</li>
+<li>Renamed the camera and motor scripts of flavor "ThirdPerson" to "ARPG" because it better applies</li>
+<li>Integration of Unity's new Input System. The legacy Input Manager remains usable via deselecting "Use New Input System" on the corresponding input be developed for the new input system!</li>
+<li>Asset now shipped with Unity standard models and animations, kindly complemented by free animations by Blink Studios</li>
+<li>Revised demo scenes: MMO, ARPG, Isometric and Playgroud</li>
+<li>Simplified RPGBuilder integration. Note that integration is only supported for the most recent version of RPGBuilder!</li>
+<li>RPGBuilder integration: Added knockback support</li>
+<li>Revised debugging gizmos of the RPGCamera and RPGMotor</li>
+</ul>
+<h3 id="v432">v4.3.2<a class="headerlink" href="#v432" title="Permanent link">&para;</a></h3>
+<ul>
+<li>New (RPGBuilder integration): Out-of-the-box integration with Blink Studio's RPGBuilder v1.1.0.8</li>
+<li>Bug fix (RPGBuilder integration): UI drag events are now recognized properly again</li>
+<li>Bug fix (RPGBuilder integration): Fixed file inconsistencies inside the unitypackages to import. Sorry for the inconvenience caused when reimporting them!</li>
+</ul>
+<h3 id="v431">v4.3.1<a class="headerlink" href="#v431" title="Permanent link">&para;</a></h3>
+<div class="admonition bug">
+<p class="admonition-title">Bug</p>
+<p>Due to a bug in RPGBuilder v1.1.x, it is recommended to uncheck integration variable "UIPanelsDisableControls" until the release of RPGBuilder v1.1.0.8!</p>
+</div>
+<p>RPGBuilder Integration</p>
+<ul>
+<li>Bugfix: Respawn positions and teleports work properly again (thanks, Harris!)</li>
+<li>Bugfix: Leaping fixed</li>
+<li>Bugfix: Casting underwater fixed</li>
+</ul>
+<h3 id="v43">v4.3<a class="headerlink" href="#v43" title="Permanent link">&para;</a></h3>
+<p>RPGBuilder Integration</p>
+<ul>
+<li>New: Out-of-the-box integration with Blink Studio's RPGBuilder v1.1.0.7</li>
+<li>New: Public variable "EnableCameraMouseLook" for enabling/disabling the mouse look functionality (thanks, Malith!)</li>
+<li>New: Public variable "AlignCharacterWhenUsingAbility". If set to true, the character turns into the camera's facing direction when using/casting an ability (thanks, Malith!)</li>
+<li>New: Public variable "UIPanelsDisableControls". If set to true, character and camera controls are disabled as long as UI panels are opened</li>
+</ul>
+<p>General</p>
+<ul>
+<li>New: Public variables for disabling the logged warnings of undefined project inputs</li>
+<li>New: Inputs used by the scripts are now shipped via Input Manager preset</li>
+<li>Bugfix: Small adjustment of the camera look up logic inside the RPGViewFrustum</li>
+<li>Variable and method visibility changes in all scripts (thanks, Marc!)</li>
+<li>Added an additional setup step for the RPGBuilder integration so that the camera look up also consistently works in the RPGBuilder demo</li>
+</ul>
+<h3 id="v421">v4.2.1<a class="headerlink" href="#v421" title="Permanent link">&para;</a></h3>
+<ul>
+<li>New: Out-of-the-box integration with Blink Studio's RPGBuilder v1.1.0.5</li>
+<li>Fixed a bug with the RPGBuilder v1.1 integration</li>
+</ul>
+<h3 id="v42">v4.2<a class="headerlink" href="#v42" title="Permanent link">&para;</a></h3>
+<ul>
+<li>New: Public RPGMotor variable "EnableMidairJumps" and "AllowedMidairJumps" to allow jumps while the character is in midair, e.g. double jumps</li>
+<li>New: Public RPGMotor variable "EnableMidairMovement" to set up when midair movement is allowed, e.g. never, only after a standing jump or always</li>
+<li>New: Public RPGMotor_ThirdPerson variable "SmoothDirectionInputChanges" for enabling smoothing of input direction changes when a keyboard is used (Input.GetAxis vs. Input.GetAxisRaw)</li>
+<li>Updated the integration code for Blink Studio's RPGBuilder to work with its newest version</li>
+<li>Minor code optimization and housekeeping</li>
+</ul>
+<h3 id="v41">v4.1<a class="headerlink" href="#v41" title="Permanent link">&para;</a></h3>
+<ul>
+<li>New: Out-of-the-box integration with Blink Studio's RPGBuilder. Just import the provided unitypackage in directory "Integration &gt; RPGBuilder" - no manual code changes required anymore!</li>
+<li>New: Public RPGViewFrustum variable "EnableCameraLookUp" for enabling/disabling the camera look up functionality when touching the terrain</li>
+<li>New: Public RPGViewFrustum variable "ViewportMargin" for setting up margins for the viewport in x and y direction</li>
+<li>New: RPGCamera methods GetPosition() and SetPosition() for retrieving and setting the current camera position</li>
+<li>Bugfix: Method TeleportTo() of the ThirdPerson motor now correctly rotates the character if parameter "withYrotation" is passed as true</li>
+<li>Bugfix: The camera look up functionality works now also if no RPGMotor script was found on the same game object</li>
+<li>Minor housekeeping</li>
+</ul>
+<h3 id="v401">v4.0.1<a class="headerlink" href="#v401" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Bugfix: The moving/rotating ground mechanic should now also work properly in very special cases. Thanks, Richard, for reporting this bug and reproducing it for me!</li>
+<li>Bugfix: The mechanic behind public variable "GroundAffectsJumping" is now working properly again </li>
+<li>Bugfix: Removed duplicate display of variable "AlwaysRotateCamera" in the RPGCameraEditor scripts</li>
+<li>Removed the remains of the default inputs inside descriptive variable names to be consistent</li>
+</ul>
+<h3 id="v40">v4.0<a class="headerlink" href="#v40" title="Permanent link">&para;</a></h3>
+<p>New Features</p>
+<ul>
+<li>Added separate RPGController, RPGMotor and RPGCamera scripts and a dedicated Animator Controller for modern RPG Third Person character and camera controls. You can try them out in demo preset "3rd Person". The original scripts were renamed to end with "_MMO", whereas the new scripts end with "_ThirdPerson"</li>
+<li>Introducing a new, more advanced Animator Controller for the MMO scripts</li>
+<li>Easier integration for third-party input systems via method GetInputs() in each controller and camera script</li>
+<li>RPGCameraEditor and RPGMotorEditor scripts for easier variable handling in the inspector</li>
+<li>IRPGMotor interfaces which are implemented by the RPGMotor scripts to get an easier overview of the provided motor methods, e.g. for implementing your own controller or AI</li>
+<li>Additional demo scene "3rd Person" with the new Third Person camera and controller</li>
+</ul>
+<p>Changes &amp; Improvements</p>
+<ul>
+<li>Code optimizations and simplifications in the RPGMotor_MMO script</li>
+<li>Code optimizations and simplifications in the RPGCamera_MMO script</li>
+<li>Rework of the first 3 demo scenes introducing a new character model</li>
+<li>RPGMotor_MMO input "Horizontal Strafe" renamed to "Strafe"</li>
+<li>Public RPGMotor variable "RotationSpeed" now represents the approximate turning degrees per second to make it more intuitive</li>
+<li>Public RPGMotor variable "JumpHeight" now really represents the jump height in world units</li>
+<li>Public RPGMotor variable "SlidingThreshold" renamed to "SlidingAngle"</li>
+<li>Public RPGCamera variable names that contained the term "Mouse" are now named according to their functionality instead of their corresponding default input</li>
+<li>Public RPGCamera variables "InvertRotationX" (previously "InvertMouseX") and "InvertRotationY" (previously "InvertMouseY") are now defined more intuitively with respect to mouse movement instead of just representing the technical view</li>
+<li>Public MMO Enum value "RotateWithCharacter.RotationStoppingInput" was renamed to "RotateWithCharacter.PreventOnInput"</li>
+<li>Bugfix: Game objects which are destroyed while entering or leaving the RPGViewFrustum no longer throw Exceptions</li>
+</ul>
+<h3 id="v373">v3.7.3<a class="headerlink" href="#v373" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Updated support for Unity 2020</li>
+<li>Introduced new PRGMotor method "TeleportTo(target, withYrotation)" which teleports the character to Transform target. Optional bool parameter withYrotation triggers additional alignment of the character's Y axis rotation</li>
+<li>Fixed a bug which sometimes caused the character to remain tilted after jumping out of the water</li>
+<li>Introduced new RPGMotor method "ResetXaxisRotation()" which immediately resets the X axis rotation of the character</li>
+<li>Introduced new RPGController variable "ActivateCharacterControl" which enables/disables controller input</li>
+<li>Fixed a bug with the demo GUI which sometimes caused the cursor to jump to the center of the screen when GUI elements were clicked</li>
+<li>Integrated the new RPGController variable "ActivateCharacterControl" into the demo so that typing in input fields does not trigger character movement</li>
+<li>Added an own namespace to the asset scripts</li>
+</ul>
+<h3 id="v372">v3.7.2<a class="headerlink" href="#v372" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Implemented fallback routines for the features "Move with moving ground", "Rotate with rotating ground" and "Ground object affects jump" in case the project physics setting "Auto Sync Transforms" is turned off.</li>
+</ul>
+<h3 id="v371">v3.7.1<a class="headerlink" href="#v371" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Created dummy animations and assigned them to the Animator Controller so that the demo settings are not lost. Note that the "Mirror animation" checkbox has to be set manually after replacing the dummies</li>
+<li>Added an animation mapping table to the manual to easier find out which Mixamo animation was used for which motion in the demo</li>
+</ul>
+<h3 id="v37">v3.7<a class="headerlink" href="#v37" title="Permanent link">&para;</a></h3>
+<p>New Features</p>
+<ul>
+<li>Introduced new feature: Swimming</li>
+<li>Introduced new RPGMotor variable "Swim Speed Multiplier". Defines the multiplier which is applied to the character movement speed when the character is swimming</li>
+<li>Introduced new RPGMotor variable "Swimming Start Height". Defines the local water height at which the character should start to swim. Gizmo available for easier setup</li>
+<li>Introduced new RPGMotor variable "Dive Only When Swimming Forward". If set to true, the character starts to dive only when moving forward (or backwards). Otherwise, the character remains in an upright stance</li>
+<li>Introduced new RPGCamera variable "Underwater Fog Color". Defines the fog color which should be applied when the camera below the water surface</li>
+<li>Introduced new RPGCamera variable "Underwater Fog Density". Defines the fog density which should be applied when the camera below the water surface</li>
+<li>Introduced new RPGCamera methods "EnableUnderwaterEffects()" and its counterpart "DisableUnderwaterEffects()". Enables/disables the visual underwater effects which should be applied once the camera is below water surface. Use these two methods to implement your own visual effects</li>
+<li>Introduced new RPGCamera variable "Underwater Threshold Tuning". Gives the possibility to fine-tune the threshold where the camera is seen as underwater. The higher the value, the earlier the underwater effects kick in</li>
+</ul>
+<p>Changes &amp; Improvements</p>
+<ul>
+<li>Complete overhaul and simplification of the provided Animator Controller</li>
+<li>New demo with character model and new animations</li>
+<li>Fixed camera jittering which sometimes occurred when the character was aligning with the camera</li>
+<li>If the character is stunned, the camera can now continue to orbit around the character with RM or the alignment input pressed</li>
+<li>Added the possibility to stun the character during the demo (button 'T')</li>
+<li>Minor code optimizations</li>
+<li>Updated to the newest Unity stable release</li>
+</ul>
+<h3 id="v36">v3.6<a class="headerlink" href="#v36" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Introduced new RPGMotor variable "Unlimited Airborne Moves". If set to true, the number of allowed moves while airborne is unlimited</li>
+<li>Introduced new RPGMotor method "Stun(duration)" which stuns the character for "duration" seconds, disabling movement and transitioning into the new "Stunned" animator state</li>
+<li>Introduced new RPGCamera variable "Align Character Speed" which controls the character-to-camera turning speed</li>
+<li>Character fading now correctly depends on the distance between the camera and the character</li>
+<li>Small logical adjustments</li>
+</ul>
+<h3 id="v35">v3.5<a class="headerlink" href="#v35" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Introduced new RPGMotor variable "Move With Moving Ground". If set to true, the character will stay on moving objects like moving platforms</li>
+<li>Introduced new RPGMotor variable "Rotate With Rotating Ground". If set to true, the character will rotate with rotating objects while standing on them</li>
+<li>Introduced new RPGMotor variable "Ground Object Affects Jump". If set to true, the jumping direction gets affected by the (moving) object the character was standing on</li>
+<li>Introduced new RPGCamera variable "Rotation Stopping Input" for setting which input should be pressed to pause automatic camera rotation with the character (only usable if "Rotate With Character" is set to "Rotation Stopping Input")</li>
+<li>Introduced new RPGCamera variable "Alignment Input" for setting which input should be pressed to align the character's view direction with the camera view direction (only usable if "Align Character" is set to "On Alignment Input")</li>
+<li>Updated the demo scenes for the new features</li>
+<li>Updated the GUI layout</li>
+<li>Updated the manual for using the RPGCamera with Unity's ThirdPersonController standard asset</li>
+<li>Minor bugfixes</li>
+</ul>
+<h3 id="v34">v3.4<a class="headerlink" href="#v34" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Fixed a bug when the RPGController and RPGCamera were used independently</li>
+<li>Added instructions to the Documentation folder for using the RPGCamera with Unity's ThirdPersonController standard asset</li>
+<li>New RPGCamera variable "Rotate With Character" which lets you set if the camera should rotate as well when the character turns</li>
+<li>Minor code additions and changes</li>
+</ul>
+<h3 id="v33">v3.3<a class="headerlink" href="#v33" title="Permanent link">&para;</a></h3>
+<ul>
+<li>When LM is pressed, the camera does not rotate with the character anymore</li>
+<li>When jumping into objects from below, the character bounces off immediately</li>
+<li>Introduced new RPGCamera variable "Support Walking Backwards" for better character alignment when walking backwards</li>
+<li>Improved the provided demo shader</li>
+<li>Fixed a bug where it was possible to turn the camera upside down in first-person mode</li>
+</ul>
+<h3 id="v32">v3.2<a class="headerlink" href="#v32" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Fixed a bug in first person view which caused the camera to behave incorrectly</li>
+<li>Fixed a bug where it was possible to force the camera under terrain for a few frames</li>
+<li>Added the possibility to group the RPGCamera script variables in the inspector</li>
+</ul>
+<h3 id="v31">v3.1<a class="headerlink" href="#v31" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Fixed an animation bug in the demo caused by Unity's new editor version 5.1.1f1</li>
+<li>Improved interleaving of scripts</li>
+<li>Improved RPGController and RPGMotor scripts</li>
+<li>Implemented a better approach for camera rotation</li>
+<li>Introduced new RPGCamera variables:<ul>
+<li>Used Skybox</li>
+<li>Constrain Mouse X</li>
+<li>Mouse X Min</li>
+<li>Mouse X Max</li>
+</ul>
+</li>
+<li>Moved the variable "Align Character With Camera" to RPGCamera and renamed it to "Align Character" to improve readability and efficiency</li>
+<li>Updated manual instructions</li>
+</ul>
+<h3 id="v30">v3.0<a class="headerlink" href="#v30" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Added animations controlled by Mecanim</li>
+<li>Added a walking toggle</li>
+<li>Object fading between the camera and its pivot</li>
+<li>Different occlusion handling modes selectable</li>
+<li>Tag dependent camera zoom enforcement (easy setup in the inspector)</li>
+<li>Slower backwards walking if desired</li>
+<li>21 new public variables for easier and more customization</li>
+<li>New GUI for the demo</li>
+<li>Replaced the RPGClipPlane by the RPGViewFrustum and moved view frustum computations there</li>
+<li>Removed a bug where you could jump while sliding resulting in greater jumps</li>
+</ul>
+<h3 id="v21">v2.1<a class="headerlink" href="#v21" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Update for Unity 5</li>
+</ul>
+<h3 id="v20">v2.0<a class="headerlink" href="#v20" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Complete revision</li>
+<li>Huge amount of new controller and camera features added</li>
+<li>UML diagram included</li>
+<li>Let out the animation scripting</li>
+</ul>
+<h3 id="v11">v1.1<a class="headerlink" href="#v11" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Added the "RPG_Animation" script</li>
+<li>Added a capsule model with animation clips attached to it</li>
+<li>Changed object hierarchy of the "PlayerChar" object</li>
+<li>The cursor is not locked anymore if you press the left mouse</li>
+<li>New public variable "fallingThreshold" in "RPG_Controller" defining the terrain height at which the character starts to stumble</li>
+<li>Setting the layer of PlayerChar to "Ignore Raycast" is not necessary anymore</li>
+<li>Some code and names improved/edited for clearer</li>
+</ul>
+<h3 id="v10">v1.0<a class="headerlink" href="#v10" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Release</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 John Stairs | <a href="/documentation/imprint/">Imprint</a>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://assetstore.unity.com/publishers/1799" target="_blank" rel="noopener" title="John Stairs on Unity&#39;s Asset Store" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="m243.6 91.6 80.1 46.8c2.9 1.6 3 6.2 0 7.8l-95.2 55.6c-2.9 1.7-6.3 1.6-9 0l-95.2-55.6c-2.9-1.6-3-6.3 0-7.8l80.1-46.8V0L0 119.4v238.8l78.4-45.8v-93.6c-.1-3.3 3.8-5.7 6.7-3.9l95.2 55.6c2.9 1.7 4.5 4.7 4.5 7.8v111.2c.1 3.3-3.8 5.7-6.7 3.9L98 346.8l-78.4 45.8L224 512l204.4-119.4-78.4-45.8-80.1 46.8c-2.8 1.7-6.8-.5-6.7-3.9V278.5c0-3.3 1.8-6.3 4.5-7.8l95.2-55.7c2.8-1.7 6.8.5 6.7 3.9v93.6l78.4 45.8V119.5L243.6.1v91.6z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.youtube.com/@johnstairs7246" target="_blank" rel="noopener" title="John Stairs on YouTube" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M549.7 124.1c-6.2-23.7-24.8-42.3-48.3-48.6C458.9 64 288.1 64 288.1 64S117.3 64 74.7 75.5c-23.5 6.3-42 24.9-48.3 48.6C15 167 15 256.4 15 256.4s0 89.4 11.4 132.3c6.3 23.6 24.8 41.5 48.3 47.8C117.3 448 288.1 448 288.1 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zM232.2 337.6V175.2l142.7 81.2z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["search.suggest", "search.highlight", "navigation.sections", "navigation.instant"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
