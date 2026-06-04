@@ -2,7 +2,7 @@
 
 This asset tries to replicate the character controller of Super Mario Galaxy. It therefore implements an own physics engine for travelling between planet and platforms.
 
-It is developed in Unity and can be bought from their Asset Store: [Planet Platformer Controller](https://johnstairs.com/planet-platformer-controller/buy.html).
+It is developed in Unity and can be bought from their Asset Store: [Planet Platformer Controller](https://johnstairs.com/planet-platformer-controller/buy.html) (affiliate link).
 
 ## Features
 
