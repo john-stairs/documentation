@@ -52,6 +52,18 @@ nav:
       - rpg-cameras-and-controllers/useful-interfaces.md
       - rpg-cameras-and-controllers/faq.md
       - rpg-cameras-and-controllers/version-history.md
+  - RPG Character Controllers:
+      - rpg-character-controllers/introduction.md
+      - rpg-character-controllers/demo.md
+      - Getting Started:
+        - rpg-character-controllers/getting-started/project-setup.md
+        - rpg-character-controllers/getting-started/demo-setup.md
+        - rpg-character-controllers/getting-started/scene-from-scratch.md
+        #- rpg-character-controllers/getting-started/integrations.md
+        - rpg-character-controllers/getting-started/videos.md
+      - rpg-character-controllers/useful-interfaces.md
+      - rpg-character-controllers/faq.md
+      - rpg-character-controllers/version-history.md
   - RTS Camera:
       - rts-camera/introduction.md
       - rts-camera/demo.md

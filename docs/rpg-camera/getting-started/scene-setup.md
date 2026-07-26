@@ -14,7 +14,7 @@ All scripts which are related to the character can be found inside Scripts > Cha
 
 <div style="text-align:center">
     <img src="../img/add-default-button.png"/><br>
-    Note that not every subcomponent is required for the camera to work!
+    Note that no subcomponent is required for the camera to work!
 </div>
 
 ## Assigning the right layers

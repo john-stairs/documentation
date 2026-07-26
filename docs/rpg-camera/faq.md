@@ -10,8 +10,14 @@ Yes, this asset uses Unity's Input System – just rebind the RPGInputActions to
 
 ## How can I use my own camera object and not the main camera?
 
-Set RPGCamera script variable "UsedCamera" to the camera object which should be controlled.
+Assign the camera game object you want to use to RPGCamera variable "Used Camera".
 
 ## Why are objects between camera and pivot not faded out?
 
-It is very likely that mentioned objects have no transparent/fade shader assigned to their material and/or a layer which is not one of the "Occluding Layers" set in the RPGViewFrustum.
+It is very likely that mentioned objects have 
+
+- no transparent shader assigned to their material
+- a layer which is not in the "Checked Layers" of the ViewFrustum
+- set up as a Fade Condition in the OcclusionHandler
+
+See [Assigning the right layers](./getting-started/scene-setup.md#assigning-the-right-layers).

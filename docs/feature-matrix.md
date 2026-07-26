@@ -1,6 +1,6 @@
 # Feature matrix for RPG assets
 
-| Feature | RPG Camera Lite | RPG Camera | RPG Cameras & Controllers |
+| Feature | RPG Camera Lite | RPG Camera | RPG Character Controllers |
 | --- | --- | --- | --- |
 | **Camera** |     |     |     |
 | Arbitrarily smooth orbit camera | ✅   | ✅   | ✅   |
@@ -9,17 +9,14 @@
 | └ Choose out of two shapes of view frustums: pyramid or cuboid | ✅   | ✅   | ✅   |
 | └ Decide which objects cause immediate zoom in | ✅   | ✅   | ✅   |
 | └ Decide which objects should fade out instead of causing a zoom in | ❌   | ✅   | ✅   |
-| └ Set the fade out and fade in alpha as well as the fading duration | ❌   | ✅   | ✅   |
-| └ If there is no occlusion anymore, the camera automatically zooms out to the desired distance | ✅   | ✅   | ✅   |
-| Enable/disable character fading and set the starting and ending distance as well as the maximum fade out alpha value | ❌   | ✅   | ✅   |
-| Support of internal and external camera pivots, i.e. within the character collider or not | ❌   | ✅   | ✅   |
-| Evasive pivot that moves away from obstacles which the player could see through if zooming in enough | ❌   | ✅   | ✅   |
-| Cursor hiding - never, always or only when orbiting | ✅   | ✅   | ✅   |
-| Dedicated cursor behavior while orbiting - move, lock in center or stay | ❌   | ❌   | ✅   |
-| Possibility to align the character with the camera's view direction | ❌   | ❌   | ✅   |
-| Possibility to control when the camera should rotate together with the character | ✅   | ✅   | ✅   |
-| Turn on/off automatic alignment with the character when it is moving (with support for walking backwards) | ✅   | ✅   | ✅   |
-| Following behaviors "Strict" and "Lazy" | ❌   | ❌   | ✅   |
+| └ Set the fade out alpha and fade in/out duration | ❌   | ✅   | ✅   |
+| └ Camera automatically zooms out to the desired distance if there is no occlusion anymore | ✅   | ✅   | ✅   |
+| Enable/disable character fading, set the start and end distance and the maximum fade out alpha value | ❌   | ✅   | ✅   |
+| Support of internal and external camera pivots, i.e. within the character collider or outside | ❌   | ✅   | ✅   |
+| Evasive pivot that moves away from obstacles which the player could see through in first-person mode | ❌   | ✅   | ✅   |
+| Hide cursor at position when orbiting | ✅   | ✅   | ✅   |
+| Control if the camera should rotate together with the character | ✅   | ✅   | ✅   |
+| Alignment with the character during movement (with support for walking backwards) | ✅   | ✅   | ✅   |
 | Movable camera pivot | ✅   | ✅   | ✅   |
 | Camera look up if it lies on objects that have a dedicated tag assigned | ❌   | ✅   | ✅   |
 | Lock a rotation axis or set a maximum angle | ✅   | ✅   | ✅   |
@@ -29,28 +26,26 @@
 | Underwater effects | ✅   | ✅   | ✅   |
 | Water level skip | ❌   | ✅   | ✅   |
 | Camera shaking effect | ✅   | ✅   | ✅   |
-| Unity's Input System support | ✅   | ✅   | ✅   |
-| Unity's legacy Input Manager support | ❌   | ❌   | ✅   |
 | ...and more |     |     |     |
-| **Character Controller** |     |     |     |
-| Choose from 2 RPG controller flavors: |     |     |     |
+| **Character** |     |     |     |
+| Choose from multiple RPG controllers: |     |     |     |
 | └ MMO (e.g. World of Warcraft) | ❌   | ❌   | ✅   |
 | └ ARPG/Third Person (e.g. Zelda BotW or The Witcher) | ❌   | ❌   | ✅   |
+| └ Isometric (e.g. Hades) | ❌   | ❌   | ✅   |
 | Large set of different motions: running, walking, crouching, sprinting, strafing - all with adjustable movement speed values or multipliers | ❌   | ❌   | ✅   |
 | Swimming and diving mechanics | ❌   | ❌   | ✅   |
-| Ledge and Free Climbing mechanics | ❌   | ❌   | ✅   |
+| Flying mechanics | ❌   | ❌   | ✅   |
+| Ledge and free climbing mechanics | ❌   | ❌   | ✅   |
+| Sliding mechanics with adjustable angle when the character should start to slide | ❌   | ❌   | ✅   |
+| Target/combat lock mechanic | ❌   | ❌   | ✅   |
+| Moving platforms (carriers) | ❌   | ❌   | ✅   |
+| Enable/disable if carriers affect jumping, i.e. always landing on the same point after a standing jump | ❌   | ❌   | ✅   |
+| Alignment with the camera's view direction on input | ❌   | ❌   | ✅   |
 | Set jump height and applied gravity | ❌   | ❌   | ✅   |
 | Allow an arbitrary number of midair jumps | ❌   | ❌   | ✅   |
-| Reward perfect midair jumps at their peak | ❌   | ❌   | ✅   |
-| Allow an arbitrary number of moves and their speed in midair - never, always or only after a standing jump | ❌   | ❌   | ✅   |
-| Toggle intelligent autorunning which can be turned on while running and turned off again on manual input | ❌   | ❌   | ✅   |
-| Turn on/off if the character should move and rotate with the object it is standing on | ❌   | ❌   | ✅   |
-| Also enable/disable if those objects affect jumping, i.e. always landing on the same point after a standing jump | ❌   | ❌   | ✅   |
-| Sliding mechanics with adjustable angle when the character should start to slide | ❌   | ❌   | ✅   |
-| Flying mechanic | ❌   | ❌   | ✅   |
+| Allow midair movement | ❌   | ❌   | ✅   |
+| Intelligent autorunning which can be turned on while running and turned off again on manual input (like in World of Warcraft) | ❌   | ❌   | ✅   |
 | Adjustable tolerance of grounded checks, e.g. for running over debris | ❌   | ❌   | ✅   |
-| Falling threshold | ❌   | ❌   | ✅   |
+| Adjustable ground stickiness | ❌   | ❌   | ✅   |
 | Mecanim animator controller for every implemented action | ❌   | ❌   | ✅   |
-| Unity's Input System support | ✅   | ✅   | ✅   |
-| Unity's legacy Input Manager support | ❌   | ❌   | ✅   |
 | ...and more |     |     |     |
