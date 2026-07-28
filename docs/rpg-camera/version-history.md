@@ -1,5 +1,12 @@
 # Version History
 
+### v1.2
+
+- New camera interfaces `ICamera` and `ICameraLite`, introducing some new public methods
+- Improved pivot position calculation
+- Update to Unity 6.5
+- Minor housekeeping
+
 ### v1.1
 
 - Update to Unity 6000.0.58f2
