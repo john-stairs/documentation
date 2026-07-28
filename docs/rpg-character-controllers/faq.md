@@ -13,7 +13,7 @@ Yes, this asset uses Unity's Input System – just rebind the RPGInputActions to
 
 ## Can I use the camera and character controller scripts separately?
 
-Yes, just make sure that you set up the individual component according to [Scene Setup](./getting-started/scene-setup.md).
+Yes, just make sure that you set up the individual component according to [Scene Setup](./getting-started/scene-from-scratch.md).
 
 ## Why does my character look like it is falling all the time after the initial setup?
 

@@ -29,7 +29,7 @@ All scripts which are related to the character can be found inside Scripts > Cha
     No subcomponent is required for the camera or the motor to work!
 
 !!! info
-    Refer to the [Scene Setup](../../rpg-camera/getting-started/scene-setup.md#assigning-the-right-layers) of my [RPG Camera](../../rpg-camera/introduction.md) asset for camera-related step.
+    Refer to the [Scene Setup](../../rpg-camera/getting-started/scene-setup.md) of my [RPG Camera](../../rpg-camera/introduction.md) asset for camera-related step.
      
 ## Water and swimming (optional)
 
