@@ -2,6 +2,10 @@
 
 Below you find interfaces that you can implement to create custom components that seamlessly integrate with my asset.
 
+## ICamera and ICameraLite
+
+In fact, the cameras themselves implement interfaces because this asset is embedded in my [RPG Character Controllers](../rpg-character-controllers/introduction.md). So if you are thinking about using my controllers but want to implement your own camera, just implement the provided interfaces.
+
 ## RPGCamera subcomponents
 
 Every subcomponent of the RPGCamera is based on an interface which can be found in the Interfaces subfolder. For a custom subcomponent, implement the corresponding interface and assign it to the game object. Make sure that there is only one component per interface assigned. If the custom subcomponent was found, its entry will be displayed in green at the top of the RPGCamera script.
