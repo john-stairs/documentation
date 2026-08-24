@@ -1,5 +1,14 @@
 # Version History
 
+### v7.1
+
+- First version which supports [John's RPG Builder Integration](https://johnstairs.com) 
+- Bugfix: Evasive pivot now uses the obstacle layers set up in the view frustum
+- New interfaces and methods, notably
+    - Dedicated "Destroy" method for all major components
+    - Interfaces for motor and camera subcomponents
+    - New Animation Handler subcomponent "IMountAnimationHandler"
+
 ### v7.0
 
 !!! warning

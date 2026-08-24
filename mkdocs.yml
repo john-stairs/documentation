@@ -59,11 +59,13 @@ nav:
         - rpg-character-controllers/getting-started/project-setup.md
         - rpg-character-controllers/getting-started/demo-setup.md
         - rpg-character-controllers/getting-started/scene-from-scratch.md
-        #- rpg-character-controllers/getting-started/integrations.md
         - rpg-character-controllers/getting-started/videos.md
       - rpg-character-controllers/useful-interfaces.md
+      - Integrations to other assets:
+        - rpg-character-controllers/integrations/rpg-builder.md
       - rpg-character-controllers/faq.md
       - rpg-character-controllers/version-history.md
+      - rpg-character-controllers/roadmap.md
   - RTS Camera:
       - rts-camera/introduction.md
       - rts-camera/demo.md
@@ -82,7 +84,6 @@ nav:
       - planet-platformer-controller/version-history.md
   - feature-matrix.md
   - faq.md
-  - roadmap.md
   - contact.md
 plugins:
   - search
