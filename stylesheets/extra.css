@@ -1,0 +1,13 @@
+.md-header {
+    background-color: #003d6a;
+}
+
+.md-nav__title, .md-nav__item--section > .md-nav__link[for] {
+    color: black;
+}
+
+[data-md-color-scheme="slate"] {
+    .md-nav__title, .md-nav__item--section > .md-nav__link[for] {
+        color: white;
+    }
+}
