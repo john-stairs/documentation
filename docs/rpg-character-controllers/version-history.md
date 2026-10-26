@@ -2,7 +2,7 @@
 
 ### v7.1
 
-- First version which supports [John's RPG Builder Integration](https://johnstairs.com) 
+- First version which supports [John's RPG Builder Integration](https://johnstairs.com/rpg-character-controllers/integrations/rpg-builder/buy.html) 
 - Bugfix: Evasive pivot now uses the obstacle layers set up in the view frustum
 - New interfaces and methods, notably
     - Dedicated "Destroy" method for all major components
